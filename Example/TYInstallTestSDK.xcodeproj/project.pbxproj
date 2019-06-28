@@ -40,7 +40,7 @@
 		0351C9A112801694B6202265 /* Pods_TYInstallTestSDK_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TYInstallTestSDK_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		101A1FD2012B6F423EC894BE /* Pods_TYInstallTestSDK_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TYInstallTestSDK_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2C081AEA2698798EBEB65FAC /* Pods-TYInstallTestSDK_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TYInstallTestSDK_Example.debug.xcconfig"; path = "Target Support Files/Pods-TYInstallTestSDK_Example/Pods-TYInstallTestSDK_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		4E87A79E0609D36FC08BF570 /* TYInstallTestSDK.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = TYInstallTestSDK.podspec; path = ../TYInstallTestSDK.podspec; sourceTree = "<group>"; };
+		4E87A79E0609D36FC08BF570 /* TYInstallTestSDK.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = TYInstallTestSDK.podspec; path = ../TYInstallTestSDK.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		6003F58A195388D20070C39A /* TYInstallTestSDK_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TYInstallTestSDK_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -63,8 +63,8 @@
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		95344723775BD1C38839B53E /* Pods-TYInstallTestSDK_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TYInstallTestSDK_Tests.debug.xcconfig"; path = "Target Support Files/Pods-TYInstallTestSDK_Tests/Pods-TYInstallTestSDK_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		A051092B132EF6916A051419 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		C0BF5340BF9D7582F6D340F5 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		A051092B132EF6916A051419 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		C0BF5340BF9D7582F6D340F5 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		C62095FC0DBE3FC9D556613A /* Pods-TYInstallTestSDK_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TYInstallTestSDK_Tests.release.xcconfig"; path = "Target Support Files/Pods-TYInstallTestSDK_Tests/Pods-TYInstallTestSDK_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		EA8FCA94CB3C61AFAFF88B80 /* Pods-TYInstallTestSDK_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TYInstallTestSDK_Example.release.xcconfig"; path = "Target Support Files/Pods-TYInstallTestSDK_Example/Pods-TYInstallTestSDK_Example.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -193,7 +193,6 @@
 				95344723775BD1C38839B53E /* Pods-TYInstallTestSDK_Tests.debug.xcconfig */,
 				C62095FC0DBE3FC9D556613A /* Pods-TYInstallTestSDK_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -258,6 +257,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);

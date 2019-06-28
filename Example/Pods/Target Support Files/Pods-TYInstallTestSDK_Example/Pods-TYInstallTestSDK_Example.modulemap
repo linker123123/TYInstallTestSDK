@@ -1,0 +1,6 @@
+framework module Pods_TYInstallTestSDK_Example {
+  umbrella header "Pods-TYInstallTestSDK_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

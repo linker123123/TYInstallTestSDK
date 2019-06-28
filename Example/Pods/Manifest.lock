@@ -1,0 +1,16 @@
+PODS:
+  - TYInstallTestSDK (0.1.0)
+
+DEPENDENCIES:
+  - TYInstallTestSDK (from `../`)
+
+EXTERNAL SOURCES:
+  TYInstallTestSDK:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  TYInstallTestSDK: 11d994affb257f49e2288104dae7a656e89d217f
+
+PODFILE CHECKSUM: 4323c0d57fdb991291eda9abe137ac1b858e7aa4
+
+COCOAPODS: 1.6.1
